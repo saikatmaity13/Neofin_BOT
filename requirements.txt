@@ -1,0 +1,31 @@
+# NeoStats Agentic Credit Underwriter — Python Dependencies
+# =============================================================
+# Core UI
+streamlit>=1.35.0
+
+# LLM Providers (install at least one)
+anthropic>=0.30.0                  # Anthropic Claude (optional)
+groq>=0.9.0                        # Groq (Llama-3, free tier, recommended)
+# google-generativeai>=0.7.0       # Google Gemini (optional)
+
+# Data
+pandas>=2.0.0
+numpy>=1.26.0
+
+# RAG & Embeddings
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+
+# HuggingFace dataset (for vectorstore setup only)
+datasets>=2.19.0
+
+# Configuration
+pydantic-settings>=2.2.0
+
+# Report generation
+fpdf2>=2.7.9
+pypdf>=4.0.0                       # Used for local PDF extraction before sending to Groq
+
+# Utilities
+python-dotenv>=1.0.0
+openpyxl>=3.1.2
