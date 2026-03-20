@@ -1,6 +1,6 @@
-# 🏦 NeoStats — Agentic Credit Underwriter
+# 🏦 NeoFIN -  Agentic Credit Underwriter
 
-> **ARIA** (Agentic Risk Intelligence Analyst) — an AI-powered loan assessment engine built by NeoStats Data & AI.
+> **ARIA** (Agentic Risk Intelligence Analyst) — an AI-powered loan assessment engine built by Saikat Maity.
 
 A production-grade **Streamlit** application featuring a multi-step agentic loop that evaluates loan applications using real credit data, RAG-based market intelligence, and rule-based compliance checks.
 
